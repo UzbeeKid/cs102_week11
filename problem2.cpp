@@ -7,7 +7,7 @@ int largestAltitude(const int gain[], int n) {
         if (altitude > best)
             best = altitude;
     }
-    return best;
+ return best;
 }
 int main() {
     int n, gain[100];
